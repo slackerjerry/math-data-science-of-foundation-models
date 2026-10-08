@@ -1,6 +1,6 @@
 # Mathematical Data Science of Foundation Models
 
-Computational companion to Jerry Yao-Chieh Hu's fifteen-chapter course. The course follows data, training objectives, model computation, learning, adaptation, inference, generation, and evaluation. These programs make selected finite models, worked calculations and controlled experiments executable.
+The [course](https://jerryhu.page/courses/mathematical-data-science/) follows data, training objectives, model computation, learning, adaptation, inference, generation, and evaluation. These programs make selected finite models, worked calculations and controlled experiments executable.
 
 **Release:** 2026.10.08, paired with lecture notes v50 (305 pages). This repository contains the corresponding code, small saved checkpoints, synthetic data, numerical records and figures. The lecture notes and syllabus are available through the [course website](https://jerryhu.page/courses/mathematical-data-science/), which requires access. The separate solution manual and editable LaTeX manuscript sources are not included.
 
