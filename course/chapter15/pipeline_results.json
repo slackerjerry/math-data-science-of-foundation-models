@@ -1,0 +1,16 @@
+{
+  "enumeration": "all eight three-demonstration sequences",
+  "task_error": 0.028,
+  "lookup_error": 0.0752,
+  "lookup_only_or_task_only_error": 0.5,
+  "adaptive_loss_plus_cost": 0.4644,
+  "always_lookup_loss_plus_cost": 0.4752,
+  "adaptive_lookup_probability": 0.73,
+  "context_objective": 0.1652,
+  "adaptation_objective_Q20": 0.1252,
+  "drift_break_even_Q20": 0.047080979284369114,
+  "rare_true_posterior": 0.9901970492127934,
+  "rare_working_posterior": 0.0099009999019801,
+  "rare_conditional_regret": 0.9803940984255867,
+  "rare_observation_probability": 0.010099
+}

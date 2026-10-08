@@ -1,0 +1,74 @@
+{
+  "seed": 1001202606,
+  "repetitions": 12000,
+  "conditional_noise_enumeration": {
+    "observed_mean": 0.7671052892659092,
+    "formula": 0.7671052892659092,
+    "absolute_difference": 0.0
+  },
+  "aligned_width_risk_table": {
+    "2": "1/14",
+    "8": "2",
+    "12": "8/3",
+    "20": "7/9"
+  },
+  "head_comparison": {
+    "random_rank2": {
+      "fitted_risk_mean": 1.2244047855519529,
+      "mc_se": 0.004175415528902915,
+      "theoretical_mean": 1.2285714285714286,
+      "standardized_difference": -0.9978990092443708
+    },
+    "aligned_rank2": {
+      "fitted_risk_mean": 0.07308736564185728,
+      "mc_se": 0.0008901264555129368,
+      "theoretical_mean": 0.07142857142857142,
+      "standardized_difference": 1.8635489407288424
+    },
+    "raw_rank20": {
+      "fitted_risk_mean": 0.7795087225820552,
+      "mc_se": 0.002283612588157192,
+      "theoretical_mean": 0.7777777777777778,
+      "standardized_difference": 0.7579853138198893
+    }
+  },
+  "random_projector_mean_diagonal": [
+    0.101012671839843,
+    0.0999091192657848,
+    0.10022591972587927,
+    0.09925205101985918,
+    0.10090314295453612,
+    0.09966442973102022,
+    0.10119778171370873,
+    0.09802870518251668,
+    0.1003229139270883,
+    0.10082907301484836,
+    0.09961508601073182,
+    0.10043384033351678,
+    0.10003383661557587,
+    0.09997780190108818,
+    0.09887198324607141,
+    0.09907879171384246,
+    0.0998584748718275,
+    0.10065616491379799,
+    0.10035122160894161,
+    0.09977699040952337
+  ],
+  "composition": {
+    "additive_coefficients": [
+      2.0,
+      3.0,
+      -1.0
+    ],
+    "training_interaction_column": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "joint_predictions_lambda_0_and_1": [
+      8.0,
+      9.0
+    ]
+  },
+  "scope": "Finite Gaussian heads and a declared additive block; no Transformer experiment."
+}

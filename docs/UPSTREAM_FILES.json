@@ -1,0 +1,469 @@
+{
+  "source_version": 24,
+  "lecture_notes_version": 50,
+  "files": [
+    {
+      "path": "course/verify_examples.py",
+      "sha256": "db6fc0479c475ea98b9ddc09e8e54f73d49b4972dc4f56fd5792c885b34b45fd"
+    },
+    {
+      "path": "course/check_results.json",
+      "sha256": "fc4908d07c2d28bb0fadbd861cea1ba6800d5e399733ebfa5b980da912a47b3b"
+    },
+    {
+      "path": "course/shared_model/diagnostics.py",
+      "sha256": "6e136041095b26756b7ba2b1ec9f532b9f450aa1c3ed04fc025a6382613e8ece"
+    },
+    {
+      "path": "course/shared_model/requirements.txt",
+      "sha256": "ff2209928090968d8927e366649e82d770f299ac5b2fa76d21b25b200413a768"
+    },
+    {
+      "path": "course/shared_model/pilot.py",
+      "sha256": "05a918e0afd1fdba4ec7e032ee47caf5ea0ecd65d7c5f9b5ef66fdb27c57b107"
+    },
+    {
+      "path": "course/shared_model/linear_pretext.py",
+      "sha256": "75d26de5c6689267f1f44546a9e8d308d589262a0dd8e6b0d13c7b61680086d3"
+    },
+    {
+      "path": "course/shared_model/README.md",
+      "sha256": "7248f7601a88cea231fbff18393ff6190b11ce1b625f6e17db34c61ede48e5b3"
+    },
+    {
+      "path": "course/shared_model/plot_results.py",
+      "sha256": "5175219beed04f8838acad43705ea2c89a56c9b55f5de5879c957d77e16604df"
+    },
+    {
+      "path": "course/shared_model/interventions.py",
+      "sha256": "932b6f9c717d71419d98aed84b37c7e3f5a4616e2cd33486c4dae81b86f6b5d2"
+    },
+    {
+      "path": "course/chapter12/README.md",
+      "sha256": "7dcc84297dac63d1d10a43c0f569537ed84b75940cef2b3a21bde63fdd0b4344"
+    },
+    {
+      "path": "course/chapter12/flow_distribution.pdf",
+      "sha256": "c7573723b3bd4b65abc276ee23fab4fa4647a10e543e4b15a4d05a6c14c0064c"
+    },
+    {
+      "path": "course/chapter13/measurement_results.json",
+      "sha256": "4e722e9c11d4d4483429fa1fccf1becdc3f73f817fc9ecfd9862237d9f271d60"
+    },
+    {
+      "path": "course/chapter05/README.md",
+      "sha256": "61da75b1ce827bdaecc8064521844d3857d47bce98891a7736c5eb0771cf2515"
+    },
+    {
+      "path": "course/chapter05/dynamics_examples.py",
+      "sha256": "9aa41529d277c89a1dc4f68241fb8d6e5baa89d58e5f315fa368356c2595a0ba"
+    },
+    {
+      "path": "course/chapter05/geometry_examples.py",
+      "sha256": "586cfe4909346c7782efad98f45d32f61175fe2d7fdc067d1c6100d08ed7ee99"
+    },
+    {
+      "path": "course/chapter05/feature_examples.py",
+      "sha256": "e7e8697244ad7e24c89fa3bc099ec9b0308bda0b4e98682b7c0e5109d58ee89c"
+    },
+    {
+      "path": "course/chapter05/worked_examples.py",
+      "sha256": "7738e8535de6c3047167bb8d65ad1a52d14dc0920e48000d6f8da6584a513cb2"
+    },
+    {
+      "path": "course/chapter05/geometry_figures.py",
+      "sha256": "e87ed29276a22d173c9e9faeb2ca9d09a31138a200a78f4fe519fd4450450822"
+    },
+    {
+      "path": "course/chapter06/interpolation_examples.py",
+      "sha256": "e349f376025b0d8e6cf13810a70e0c34584e083cd993a829657788603f006c82"
+    },
+    {
+      "path": "course/chapter06/worked_examples.py",
+      "sha256": "a469c6d8093da73b28173ed829bbcb3f09c6d693e17fd27191c97edb1c045bc9"
+    },
+    {
+      "path": "course/chapter08/README.md",
+      "sha256": "8bc827a37c43b8a47ef59c1e3440f5d2f3ba5ee7aa9606420f4d9d9fc2b4d017"
+    },
+    {
+      "path": "course/chapter14/evaluation_results.json",
+      "sha256": "f3ace3b1e4f72e6f0d744f929a73a98a879ccc6603d8fef6c0186dcd1ba39bd0"
+    },
+    {
+      "path": "course/chapter15/README.md",
+      "sha256": "79e0cd74a853c3108c3af1f00686584f9abb553726c654075862ba8cb6b8a67a"
+    },
+    {
+      "path": "course/chapter15/pipeline_results.json",
+      "sha256": "18f6f389043090840959af539bd509a6451500252f650b90b2be55414167235a"
+    },
+    {
+      "path": "course/chapter07/README.md",
+      "sha256": "e332e99a91c4842a34384ff08dda6bbbbb042eb197c1b8d64a16d353dd83cf5b"
+    },
+    {
+      "path": "course/chapter09/README.md",
+      "sha256": "901be08028f0b9ef6e992f7f383a06696718e576d8d58ac233050635c1ca0114"
+    },
+    {
+      "path": "course/chapter02/generation_examples.py",
+      "sha256": "28802c910b854a2abead25bc3da78f60d40f5f2b5de2155ef903bfb71db24862"
+    },
+    {
+      "path": "course/chapter02/worked_examples.py",
+      "sha256": "11bd5fc54c24aedf7461be3ed7e4ad163602e7c874208281effb616bf3381454"
+    },
+    {
+      "path": "course/chapter04/README.md",
+      "sha256": "697a3ec06cc9277e34430834bd0ce0211a948b2fb2ac57166903237736e0f5ab"
+    },
+    {
+      "path": "course/chapter04/research_examples.py",
+      "sha256": "07ded3ad6515304a130ffaceca30329f289121cdbf6d8701294015c78e3ab3a4"
+    },
+    {
+      "path": "course/chapter04/finite_candidates_examples.py",
+      "sha256": "622419388b60570b34a85f7439315dff249cdb155a0366877a1223ed2645d97f"
+    },
+    {
+      "path": "course/chapter04/worked_examples.py",
+      "sha256": "4cc18ab719026f6a30f836ea85825aaf33afc007609ee02d4f0be54fc7091611"
+    },
+    {
+      "path": "course/chapter04/mean_distribution_example.py",
+      "sha256": "92ed088589a589259caaf0f8d01308a2c739eb45368a1f96891e0b8123a8e212"
+    },
+    {
+      "path": "course/chapter03/retrieval_examples.py",
+      "sha256": "c151b7ef6466ee7ad5511bbada70134782116e792bc25641e49741ef0e7ddbe2"
+    },
+    {
+      "path": "course/chapter03/README.md",
+      "sha256": "5c6e6ca76da7c6703fc1e6eea4c080b061e81d725df30bdc6a87f224721954dc"
+    },
+    {
+      "path": "course/chapter03/composition_examples.py",
+      "sha256": "518e475fc0d641ee0aaebb25f8a296e1bd32e0945f5cf85c8287c2421e54ac76"
+    },
+    {
+      "path": "course/chapter03/worked_examples.py",
+      "sha256": "327471fa14d0ca36d649904019d444885c5126992bf170a66b6ce84a23558bd7"
+    },
+    {
+      "path": "course/chapter03/token_routing_examples.py",
+      "sha256": "3ea486079148b75f15174bebb26480303e9fec8a3601e22b20987d0ac4de2406"
+    },
+    {
+      "path": "course/shared_model/reduced_run/lookup_31.json",
+      "sha256": "4c4ee1902fe87c7e02b6acc3a909d780d096ce7a5661cdbef551f19db9ed6e9f"
+    },
+    {
+      "path": "course/shared_model/reduced_run/nuisance_31.json",
+      "sha256": "acae8aeed1d4ac9552b19a468dd0fef9a611c1341d38ba7f002c863694e75062"
+    },
+    {
+      "path": "course/shared_model/reduced_run/nuisance_31.pt",
+      "sha256": "cc21c96c6dbf8cfb08eec0b03743fcf12bda880ca014a5170d1fdfc8d721bec6"
+    },
+    {
+      "path": "course/shared_model/reduced_run/lookup_31.pt",
+      "sha256": "e0c0e11355f816a8d3dae66d7d385c4679f6e36e4855b1b79908dd5cf7a6a460"
+    },
+    {
+      "path": "course/shared_model/reduced_run/environment.json",
+      "sha256": "a303f1b31e033529af1c5c76b23551ab6bd98d54e0b31c758551ba001f7d5695"
+    },
+    {
+      "path": "course/shared_model/results/nuisance_23.json",
+      "sha256": "d656d1d21f276bd04f6efb80ecb1c7aaf6ad76935a35629821f25f796501412c"
+    },
+    {
+      "path": "course/shared_model/results/lookup_21.pt",
+      "sha256": "91adea83e487d1b9c3ae7f7e780c1abdd5138f70456ea9d987ecdad1f7c5ea9f"
+    },
+    {
+      "path": "course/shared_model/results/lookup_21.json",
+      "sha256": "261b0eb1864feacf3fab42f9fdc941ee12afd20968690ed4b2d9579e0e158636"
+    },
+    {
+      "path": "course/shared_model/results/evaluation.json",
+      "sha256": "85986985d17cbab78927ef84e629f8371b739f1eea66643ea0ad3faa7c4a5ad2"
+    },
+    {
+      "path": "course/shared_model/results/nuisance_21.pt",
+      "sha256": "bade1e3bfda5d75f98bca3e630888e229097f420950b9f226b08335057c63585"
+    },
+    {
+      "path": "course/shared_model/results/evaluation_arrays.npz",
+      "sha256": "a9b7bbe4a9f15b10d344e535aca73316fcc86281da3ccaa78752dae5f6910cae"
+    },
+    {
+      "path": "course/shared_model/results/nuisance_22.pt",
+      "sha256": "0e496790e3a96f87e88f01798cc3795bc9a49e5e57af449ddcbf8ab7cc4b963a"
+    },
+    {
+      "path": "course/shared_model/results/lookup_22.pt",
+      "sha256": "36fea76d40be2a74ffb98ff786c0d9bc29320260a35c61a37e5b0d048f4fc401"
+    },
+    {
+      "path": "course/shared_model/results/lookup_23.json",
+      "sha256": "7f28bbf926aec59581e12684026e9702c770c0432f20846c0053bfe16e33eeeb"
+    },
+    {
+      "path": "course/shared_model/results/lookup_23.pt",
+      "sha256": "2050e2edd6b6fb4cad91581fe64c33643c0e19b33f3a42fb09a531b22a6bc8b5"
+    },
+    {
+      "path": "course/shared_model/results/nuisance_22.json",
+      "sha256": "48a5c180c0371a87643375e943f77b831ea2bb74e35771ee9a074fc741b29d55"
+    },
+    {
+      "path": "course/shared_model/results/interventions.json",
+      "sha256": "aac6edb4873f25124891ea6a37fea2bdcc386969437ff6b5d3f31f27f4271b0d"
+    },
+    {
+      "path": "course/shared_model/results/probe_validation_episodes.npz",
+      "sha256": "4cf5dfd49cbd9a03c729605bce3041efa8ab8c3bd55ab527feb9a189b04f5ea7"
+    },
+    {
+      "path": "course/shared_model/results/probe_fit_episodes.npz",
+      "sha256": "df725456d795f0b17fedbaacafe17b529e6c5b144cb60c3770d2d5f771446b8e"
+    },
+    {
+      "path": "course/shared_model/results/test_episodes.npz",
+      "sha256": "ceec61653fb1686245b7a531764f153918e8961cf55fabda5d25d1a806ebea2d"
+    },
+    {
+      "path": "course/shared_model/results/nuisance_23.pt",
+      "sha256": "078e38078583717125bff90f16611095343322b2532fad3628796c9aad3807e7"
+    },
+    {
+      "path": "course/shared_model/results/lookup_22.json",
+      "sha256": "927a3e4ac4ee799e7836b86e46b11e4a47db1fc652afd359115e6e833d5e6a92"
+    },
+    {
+      "path": "course/shared_model/results/diagnostics.json",
+      "sha256": "ba5340d2c4263d6d3b8d043df334b21aec97ef875ab64b14426aadd236adb6ba"
+    },
+    {
+      "path": "course/shared_model/results/task_splits.npz",
+      "sha256": "1012e50407a423cbe650ade5f65fedbbec6711444df9aa4415986da986d8dbb6"
+    },
+    {
+      "path": "course/shared_model/results/environment.json",
+      "sha256": "a303f1b31e033529af1c5c76b23551ab6bd98d54e0b31c758551ba001f7d5695"
+    },
+    {
+      "path": "course/shared_model/results/nuisance_21.json",
+      "sha256": "49fae16426991926dc639c5159b66e4ca47aaef66b590212031799ebde0ca1a5"
+    },
+    {
+      "path": "course/shared_model/figures/training_pilot.pdf",
+      "sha256": "06c7bbfa910940d9a40e5cc624b0ebae64dd1acbea7e6cb35577c169b1ec3a24"
+    },
+    {
+      "path": "course/shared_model/figures/summary.csv",
+      "sha256": "b9cbe3cce2cb57edaf3da1f12e01724069d78d4b7a0c6b73226366a293531b2f"
+    },
+    {
+      "path": "course/shared_model/linear_results/linear_transfer.pdf",
+      "sha256": "9d36112e22d9356812dea1d96965bf475f77332a69a67b12ef3ffce468ef5c29"
+    },
+    {
+      "path": "course/shared_model/linear_results/risk_comparison.csv",
+      "sha256": "b04ce32b5421278312cfb6c21d7c7228250dd26c94af56eabd4ff31fd4f4d218"
+    },
+    {
+      "path": "course/shared_model/linear_results/results.json",
+      "sha256": "a7787a1591861626091b541b06d5559274418a76ea02e9e88b85acade8db8d7a"
+    },
+    {
+      "path": "course/chapter12/code/flow_experiment.py",
+      "sha256": "887ba2ebfc6d935440f44328773570ac806f04424f33f4431a87c27c746c3305"
+    },
+    {
+      "path": "course/chapter12/code/field_seed23.pt",
+      "sha256": "b30d64642b076ccac544bfba090eca06e8840389dafe8ff70747d85570f839f0"
+    },
+    {
+      "path": "course/chapter12/code/results.json",
+      "sha256": "bf60bb7f862248b3afc2e1df11f9f53ec7f45f5c4924e52b8f42d7276e983bc9"
+    },
+    {
+      "path": "course/chapter12/code/field_seed12.pt",
+      "sha256": "0a29aadee6f85aabf732799ee04e2cacc652506862c12b9c04ee871577ebb0d6"
+    },
+    {
+      "path": "course/chapter12/code/field_seed34.pt",
+      "sha256": "c075ab6b296f0a04e6d75d5296f92a7f38b9d74c71942d930c16867de1339b42"
+    },
+    {
+      "path": "course/chapter13/code/measurement_experiment.py",
+      "sha256": "6c72cd9a50e278ae90c4bab804f5d4d4053e48872289b90ef63d4ad44074582d"
+    },
+    {
+      "path": "course/chapter05/figures/scale_tilt.png",
+      "sha256": "318e50dc89c8e07dc351f5fa8d7fd287b9cc8641813a865766d5c29c3022cbd0"
+    },
+    {
+      "path": "course/chapter05/figures/geometry_checks.json",
+      "sha256": "cbee938ca44aa5658b736b86d792926090653be11c060ad65972958aaef3e9f8"
+    },
+    {
+      "path": "course/chapter05/figures/feature_rotation.png",
+      "sha256": "836476048e1a0d2dd99295a5c26d9d04fc76a5c3a9913d5525b7369bf262da69"
+    },
+    {
+      "path": "course/chapter05/figures/scale_tilt.pdf",
+      "sha256": "fd8532ed900d4fdf25b81eea859411c70e342fdca3ba7fafd86ae8f0864cfbc9"
+    },
+    {
+      "path": "course/chapter05/figures/feature_rotation.pdf",
+      "sha256": "3308fbe43baa51bb3b6e80b1b4cef0a6ec515e1660a9d034b5c3ba2d962fc3a1"
+    },
+    {
+      "path": "course/chapter05/figures/rotation_values.csv",
+      "sha256": "f50a71a26e99fa7db627cbe84741653db1d047fb716f19432d293336bfd76d5f"
+    },
+    {
+      "path": "course/chapter06/figures/reuse_verification.csv",
+      "sha256": "479e13357126aca464ba762b7eb492d206812be1a2a40b026faf6a3cf220403f"
+    },
+    {
+      "path": "course/chapter06/figures/checks.json",
+      "sha256": "04f44824299bb34f715c4d3c863cab438975eeec30f73463157b4b1b12568d89"
+    },
+    {
+      "path": "course/chapter06/figures/interpolation_checks.json",
+      "sha256": "2442ae80eda20d1d44684ad48d2a647436599bea36e2a4207164389a79c85aa8"
+    },
+    {
+      "path": "course/chapter06/figures/reuse_verification.pdf",
+      "sha256": "dabb1c2eae0d64bce91e21f211a1770153f8d7c3f504f74821f535d89c15a1eb"
+    },
+    {
+      "path": "course/chapter06/figures/reuse_verification.png",
+      "sha256": "ac712822eff75022a0816dddc41b1b6af9e534e1811f0678cf33bd5732646112"
+    },
+    {
+      "path": "course/chapter08/code/checkpoint_33.pt",
+      "sha256": "42a4c69716ecfe3bca4749e65e83775303c9795b9ce5fb445e02f755c78b3795"
+    },
+    {
+      "path": "course/chapter08/code/reevaluation_11.json",
+      "sha256": "d47c9e0e26841526d280050a86ab3ef100623fa5588d94c913802290faa1dfa1"
+    },
+    {
+      "path": "course/chapter08/code/icl_experiment.py",
+      "sha256": "a84b909da54f4ce3cf8ed0b55c498295fa6ecb31543146a1eb51581fbbc19fef"
+    },
+    {
+      "path": "course/chapter08/code/results.json",
+      "sha256": "23b20a0be8b36c9b5ba710a58689d140d11da2618ffb781a3c47489387338951"
+    },
+    {
+      "path": "course/chapter08/code/checkpoint_22.pt",
+      "sha256": "4503f7b7dd50794034edb87d91bf586381464b4da65b6822bb708b2f23bbbfba"
+    },
+    {
+      "path": "course/chapter08/code/checkpoint_11.pt",
+      "sha256": "f9bd82751b94ea2ad97e016b19168ead567a6fd0f7a0138f248cb9cea4e8432e"
+    },
+    {
+      "path": "course/chapter08/code/evaluate_checkpoint.py",
+      "sha256": "a0c09a3d081364eef0d3d6f4ab7e2a7e4564fdaba1c5e92918362beadced331a"
+    },
+    {
+      "path": "course/chapter08/code/raw_errors_22.json",
+      "sha256": "d0efd2ce0990d2e1f311092acbe62418d06e33be1997baa3eb9922aa822a8233"
+    },
+    {
+      "path": "course/chapter08/code/summarize.py",
+      "sha256": "f6a98f7fbb93d6de09e72ce61cf1a39faedc7f8bb75b4c33516ce33a4165fbd3"
+    },
+    {
+      "path": "course/chapter08/code/raw_errors_11.json",
+      "sha256": "f08ee05f57ec411b7825ec83e3fcc5987a1cccb3c7bbee34a5739b3096f20c38"
+    },
+    {
+      "path": "course/chapter08/code/raw_errors_33.json",
+      "sha256": "41e040ebea0e4cd56a4d7f28b73f6583e07deb079bc62792b85d94a48ba18050"
+    },
+    {
+      "path": "course/chapter11/code/results.json",
+      "sha256": "93a3890372136cbb93ba8c596a16c2ff2856fb21f02faeb058d6af4bd18926e9"
+    },
+    {
+      "path": "course/chapter11/code/verify.py",
+      "sha256": "e9e75852d0e0074683b8402c8bca4f20214b58433bc58d33b887de0255efacac"
+    },
+    {
+      "path": "course/chapter14/code/evaluation_experiment.py",
+      "sha256": "76d14eae04030de1a3fd425b4a90ff6b5cc5ccb4b41b6f98038a87932c8dcd70"
+    },
+    {
+      "path": "course/chapter15/code/pipeline_experiment.py",
+      "sha256": "d0395cdb122454d62441f9f8be65347dbc1c783fb1e8e359b19b12c344559599"
+    },
+    {
+      "path": "course/chapter07/code/verify.py",
+      "sha256": "ce7a6519f65149dac02ace4623783ef691f7ed501d55c2a66a355192daba7285"
+    },
+    {
+      "path": "course/chapter09/code/adaptation_experiment.py",
+      "sha256": "745ddb0a9b0f421c657c4907bbb23748749c5d6e99ff3b6807187654e5a3b2da"
+    },
+    {
+      "path": "course/chapter09/code/results.json",
+      "sha256": "6b7dbfcb406d5fdd02c6e8ded5cdee3f3326ee91aba7117c4550b330984eb619"
+    },
+    {
+      "path": "course/chapter09/code/summarize.py",
+      "sha256": "e5699d512d0cbe81be3cde62b52cc56260782507db49278770238574c4c9ee6c"
+    },
+    {
+      "path": "course/chapter10/code/results.json",
+      "sha256": "0fbff321b76e7869ae41085a55885f0e2a8ab2b6b0face0eb70ed87a03dda103"
+    },
+    {
+      "path": "course/chapter10/code/verify.py",
+      "sha256": "6cf24dcec145db95078d796edde325ec5f44db445bf96e79604863b5a0866c33"
+    }
+  ],
+  "omitted_generated_outputs": [
+    {
+      "path": "course/chapter12/experiment_results.tex",
+      "sha256": "722acaf6ca0ccae700b545075a4cc70fbdd1401601713e23514daf03da4cb4fc"
+    },
+    {
+      "path": "course/chapter13/experiment_results.tex",
+      "sha256": "8543d7e5bbb8414b34f04f797d677f449f5040744f7089d79eea1a5542a96f0a"
+    },
+    {
+      "path": "course/chapter08/experiment_results.tex",
+      "sha256": "132a718222383e7a391b08b67c5e012a5333783f82db55e322846c38630dea1b"
+    },
+    {
+      "path": "course/chapter11/experiment_results.tex",
+      "sha256": "d475bee0bbbe9c98ce3c7bff3c02f75a7c7f7d39d8eaea1eae16369619b947b1"
+    },
+    {
+      "path": "course/chapter14/experiment_results.tex",
+      "sha256": "3c99f47f5f3f8644f8be56492d6dc9c6cfe36efb04f162ac9229eb428d1209e0"
+    },
+    {
+      "path": "course/chapter15/experiment_results.tex",
+      "sha256": "94d9c789c62de363b8252041b8b6faf9280e4a33ffff6744fd976372cd5cfaca"
+    },
+    {
+      "path": "course/chapter09/experiment_results.tex",
+      "sha256": "e8c329dc2d822d2e815ae1a7b2ef187cafab6536f278ece1fde107d1903157f0"
+    },
+    {
+      "path": "course/chapter10/experiment_results.tex",
+      "sha256": "32f4c1648416fd0c871eded08ab14ce665d4ce056e6ffd179bc43fce7cd937c6"
+    }
+  ],
+  "publication_note": "Eight generated experiment_results.tex output tables are omitted from the initial repository snapshot. Their generating scripts are unchanged and can regenerate them locally. The files list covers only retained upstream files."
+}

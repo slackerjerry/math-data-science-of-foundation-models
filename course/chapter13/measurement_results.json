@@ -1,0 +1,49 @@
+{
+  "protocol": {
+    "seed": 13001,
+    "specimens": 100000,
+    "interval_z": 1.959963984540054
+  },
+  "target_design": [
+    {
+      "sensor": "Common",
+      "analytic_mse": 1.0,
+      "mse": 0.99702760845942,
+      "se": 0.00442343041933106,
+      "coverage": 0.95047
+    },
+    {
+      "sensor": "Contrast",
+      "analytic_mse": 0.5,
+      "mse": 0.4974236460195237,
+      "se": 0.0022189014732749506,
+      "coverage": 0.95086
+    }
+  ],
+  "prior_shift": [
+    {
+      "prior": "Wrong prior",
+      "mse": 1.2589767857279186,
+      "analytic_mse": 1.2525,
+      "reported_var": 0.005,
+      "coverage": 0.03109
+    },
+    {
+      "prior": "Matched prior",
+      "mse": 0.009892411860568223,
+      "analytic_mse": 0.009900990099009901,
+      "reported_var": 0.009900990099009901,
+      "coverage": 0.95036
+    }
+  ],
+  "likelihood": {
+    "kappa": 0.5,
+    "conditional_variance": 0.5,
+    "gradient_ratio": 5.999999999999999
+  },
+  "pooled": {
+    "mean": 0.0,
+    "variance": 0.5,
+    "joint_variance": 0.3333333333333333
+  }
+}

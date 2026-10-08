@@ -1,0 +1,103 @@
+{
+  "prefix_checks": [
+    {
+      "seed": 21,
+      "unique_train_prefixes": 172276,
+      "seen_prefix_overlap": 389,
+      "novel_seen_count": 635,
+      "unseen_prefix_overlap": 111,
+      "models": {
+        "random": {
+          "novel_seen_accuracy": 0.11653543307086614,
+          "unseen_oracle_kl": 0.6587145652210475,
+          "unseen_structural_kl": 0.6029226377858337,
+          "unseen_forbidden_mass": 0.3637091617710003
+        },
+        "lookup": {
+          "novel_seen_accuracy": 1.0,
+          "unseen_oracle_kl": 0.1327685106551294,
+          "unseen_structural_kl": 0.07885902168318089,
+          "unseen_forbidden_mass": 0.0221363938562691
+        },
+        "nuisance": {
+          "novel_seen_accuracy": 0.35590551181102364,
+          "unseen_oracle_kl": 8.505761232373988,
+          "unseen_structural_kl": 8.451644699981777,
+          "unseen_forbidden_mass": 0.9997763985701532
+        }
+      }
+    },
+    {
+      "seed": 22,
+      "unique_train_prefixes": 172389,
+      "seen_prefix_overlap": 360,
+      "novel_seen_count": 664,
+      "unseen_prefix_overlap": 88,
+      "models": {
+        "random": {
+          "novel_seen_accuracy": 0.10993975903614457,
+          "unseen_oracle_kl": 0.61878438833104,
+          "unseen_structural_kl": 0.5655696830736511,
+          "unseen_forbidden_mass": 0.3729295944904034
+        },
+        "lookup": {
+          "novel_seen_accuracy": 1.0,
+          "unseen_oracle_kl": 0.14855682764393247,
+          "unseen_structural_kl": 0.09537906690136436,
+          "unseen_forbidden_mass": 0.04918481561187497
+        },
+        "nuisance": {
+          "novel_seen_accuracy": 0.3539156626506024,
+          "unseen_oracle_kl": 8.488244004473543,
+          "unseen_structural_kl": 8.437364558154602,
+          "unseen_forbidden_mass": 0.9997626904993896
+        }
+      }
+    },
+    {
+      "seed": 23,
+      "unique_train_prefixes": 172240,
+      "seen_prefix_overlap": 361,
+      "novel_seen_count": 663,
+      "unseen_prefix_overlap": 90,
+      "models": {
+        "random": {
+          "novel_seen_accuracy": 0.11613876319758673,
+          "unseen_oracle_kl": 0.6874473570434805,
+          "unseen_structural_kl": 0.6319626240812207,
+          "unseen_forbidden_mass": 0.36966708251417635
+        },
+        "lookup": {
+          "novel_seen_accuracy": 1.0,
+          "unseen_oracle_kl": 0.14409109383344876,
+          "unseen_structural_kl": 0.09135560238123028,
+          "unseen_forbidden_mass": 0.02388784984854913
+        },
+        "nuisance": {
+          "novel_seen_accuracy": 0.3438914027149321,
+          "unseen_oracle_kl": 8.504158446684377,
+          "unseen_structural_kl": 8.44845092902681,
+          "unseen_forbidden_mass": 0.9997726130411464
+        }
+      }
+    }
+  ],
+  "paired_mse_reduction": {
+    "random": {
+      "mse_reduction": 0.8297663888149613,
+      "task_bootstrap_95_percent_interval": [
+        0.8097688922861025,
+        0.8502163644366186
+      ],
+      "note": "Paired resampling of 512 task clusters. Fixed split, seeds, binary tasks and trained models."
+    },
+    "nuisance": {
+      "mse_reduction": 0.8327085423801379,
+      "task_bootstrap_95_percent_interval": [
+        0.8096620414024971,
+        0.8565717861562445
+      ],
+      "note": "Paired resampling of 512 task clusters. Fixed split, seeds, binary tasks and trained models."
+    }
+  }
+}

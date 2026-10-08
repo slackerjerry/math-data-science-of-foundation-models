@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the course materials when using these teaching programs."
+title: "Mathematical Data Science of Foundation Models: Computational Companion"
+authors:
+  - family-names: "Hu"
+    given-names: "Jerry Yao-Chieh"
+version: "2026.10.08"
+date-released: "2026-10-08"
+type: software
+repository-code: "https://github.com/slackerjerry/math-data-science-of-foundation-models"

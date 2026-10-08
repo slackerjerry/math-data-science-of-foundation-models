@@ -1,0 +1,15 @@
+{
+  "rotation_original_ode_rk4_dt": 0.001,
+  "rotation_original_ode_max_abs_error": 1.6542323066914832e-14,
+  "unit_direction_max_error": 4.440892098500626e-16,
+  "optimal_head_projection_max_error": 3.3306690738754696e-16,
+  "view_excess": [
+    1.0,
+    1.0
+  ],
+  "best_X1_task_risk": [
+    0.0,
+    0.5
+  ],
+  "scope": "Exact population formulas. RK4 is a sampled numerical check, not a proof."
+}

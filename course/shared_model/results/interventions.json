@@ -1,0 +1,56 @@
+[
+  {
+    "seed": 21,
+    "arm": "lookup",
+    "whole_pair_reordering": {
+      "n": 1024,
+      "nll": 0.0030068797059357166,
+      "accuracy": 1.0
+    }
+  },
+  {
+    "seed": 21,
+    "arm": "nuisance",
+    "whole_pair_reordering": {
+      "n": 1024,
+      "nll": 6.522530555725098,
+      "accuracy": 0.3447265625
+    }
+  },
+  {
+    "seed": 22,
+    "arm": "lookup",
+    "whole_pair_reordering": {
+      "n": 1024,
+      "nll": 0.002963944338262081,
+      "accuracy": 1.0
+    }
+  },
+  {
+    "seed": 22,
+    "arm": "nuisance",
+    "whole_pair_reordering": {
+      "n": 1024,
+      "nll": 6.53357458114624,
+      "accuracy": 0.3447265625
+    }
+  },
+  {
+    "seed": 23,
+    "arm": "lookup",
+    "whole_pair_reordering": {
+      "n": 1024,
+      "nll": 0.002560822758823633,
+      "accuracy": 1.0
+    }
+  },
+  {
+    "seed": 23,
+    "arm": "nuisance",
+    "whole_pair_reordering": {
+      "n": 1024,
+      "nll": 6.53257942199707,
+      "accuracy": 0.3447265625
+    }
+  }
+]

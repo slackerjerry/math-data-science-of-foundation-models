@@ -1,0 +1,221 @@
+{
+  "protocol": {
+    "seeds": [
+      12,
+      23,
+      34
+    ],
+    "steps": 4000,
+    "batch": 256,
+    "architecture": "2-64-64-1 SiLU",
+    "optimizer": "Adam lr=0.001",
+    "training": "fresh independent endpoint pairs, uniform t at every update",
+    "evaluation_seed": 12001,
+    "evaluation_samples": 12000,
+    "reference": "mixture quantile transport of the same Gaussian samples",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "python": "3.12.14"
+  },
+  "target": {
+    "mean": 0.0,
+    "variance": 4.1225,
+    "positive_fraction": 0.5,
+    "valley_fraction": 0.0021373669800863193
+  },
+  "finite_reference": {
+    "paired_mse": 0.0,
+    "mean": 0.009497551494157295,
+    "variance": 4.124371035539619,
+    "positive_fraction": 0.5029166666666667,
+    "valley_fraction": 0.0025,
+    "mean_abs_quantile_error": 0.0
+  },
+  "exact": {
+    "8": {
+      "paired_mse": 0.017699800467125756,
+      "mean": 0.008886441115615257,
+      "variance": 3.6455747390230364,
+      "positive_fraction": 0.5029166666666667,
+      "valley_fraction": 0.017833333333333333,
+      "mean_abs_quantile_error": 0.12411781095347377
+    },
+    "32": {
+      "paired_mse": 0.001149071877815541,
+      "mean": 0.009336342397116374,
+      "variance": 3.998199088060781,
+      "positive_fraction": 0.5029166666666667,
+      "valley_fraction": 0.004833333333333334,
+      "mean_abs_quantile_error": 0.03158648116564483
+    },
+    "128": {
+      "paired_mse": 7.267133912673467e-05,
+      "mean": 0.009456987566876051,
+      "variance": 4.0923474896787795,
+      "positive_fraction": 0.5029166666666667,
+      "valley_fraction": 0.002916666666666667,
+      "mean_abs_quantile_error": 0.007945711393688042
+    }
+  },
+  "learned": {
+    "12": {
+      "training_loss_snapshots": [
+        [
+          1000,
+          2.36561918258667
+        ],
+        [
+          2000,
+          2.497951030731201
+        ],
+        [
+          3000,
+          2.5929148197174072
+        ],
+        [
+          4000,
+          2.7709529399871826
+        ]
+      ],
+      "heldout_marginal_field_mse": 0.05011665930694264,
+      "rollouts": {
+        "8": {
+          "paired_mse": 0.05077446705202101,
+          "mean": -0.026065916046112154,
+          "variance": 3.53329811404911,
+          "positive_fraction": 0.5021666666666667,
+          "valley_fraction": 0.05216666666666667,
+          "mean_abs_quantile_error": 0.1746401026056833
+        },
+        "32": {
+          "paired_mse": 0.008076747236662036,
+          "mean": -0.03229876026751784,
+          "variance": 4.010579396355291,
+          "positive_fraction": 0.5034166666666666,
+          "valley_fraction": 0.01633333333333333,
+          "mean_abs_quantile_error": 0.05611984027823122
+        },
+        "128": {
+          "paired_mse": 0.00565938243997596,
+          "mean": -0.03378408771085863,
+          "variance": 4.125627987066536,
+          "positive_fraction": 0.5035833333333334,
+          "valley_fraction": 0.011833333333333333,
+          "mean_abs_quantile_error": 0.052202654090295626
+        }
+      }
+    },
+    "23": {
+      "training_loss_snapshots": [
+        [
+          1000,
+          2.7613508701324463
+        ],
+        [
+          2000,
+          2.7893786430358887
+        ],
+        [
+          3000,
+          2.514784336090088
+        ],
+        [
+          4000,
+          2.586296796798706
+        ]
+      ],
+      "heldout_marginal_field_mse": 0.050353368145897144,
+      "rollouts": {
+        "8": {
+          "paired_mse": 0.12127977847241447,
+          "mean": 0.030051179170841352,
+          "variance": 3.3616787555567003,
+          "positive_fraction": 0.5233333333333333,
+          "valley_fraction": 0.050583333333333334,
+          "mean_abs_quantile_error": 0.23957340503420874
+        },
+        "32": {
+          "paired_mse": 0.06437755947042048,
+          "mean": 0.0033312280223083994,
+          "variance": 3.818936623291617,
+          "positive_fraction": 0.5155,
+          "valley_fraction": 0.01525,
+          "mean_abs_quantile_error": 0.10781582448803147
+        },
+        "128": {
+          "paired_mse": 0.058101180619990964,
+          "mean": -0.0018439359216329953,
+          "variance": 3.9278884374114442,
+          "positive_fraction": 0.5145833333333333,
+          "valley_fraction": 0.009916666666666667,
+          "mean_abs_quantile_error": 0.08224329834480358
+        }
+      }
+    },
+    "34": {
+      "training_loss_snapshots": [
+        [
+          1000,
+          2.873080253601074
+        ],
+        [
+          2000,
+          2.7154006958007812
+        ],
+        [
+          3000,
+          2.391838312149048
+        ],
+        [
+          4000,
+          2.745426893234253
+        ]
+      ],
+      "heldout_marginal_field_mse": 0.042383656694106105,
+      "rollouts": {
+        "8": {
+          "paired_mse": 0.0572662411213289,
+          "mean": -0.009784897695450732,
+          "variance": 3.415299438364452,
+          "positive_fraction": 0.49875,
+          "valley_fraction": 0.046,
+          "mean_abs_quantile_error": 0.20393042293992972
+        },
+        "32": {
+          "paired_mse": 0.013267497817025176,
+          "mean": -0.003427802603847037,
+          "variance": 3.870019642318104,
+          "positive_fraction": 0.49975,
+          "valley_fraction": 0.013083333333333334,
+          "mean_abs_quantile_error": 0.07579936226534885
+        },
+        "128": {
+          "paired_mse": 0.010278264680795398,
+          "mean": -0.002250524866084258,
+          "variance": 3.9808451280610613,
+          "positive_fraction": 0.5,
+          "valley_fraction": 0.00875,
+          "mean_abs_quantile_error": 0.04981296596893837
+        }
+      }
+    }
+  },
+  "conditioning_control": {
+    "-2.0": {
+      "paired_mse": 2.282423654735102e-05,
+      "mean": -1.9999636545565318,
+      "variance": 0.11913564428603442,
+      "positive_fraction": 0.0,
+      "valley_fraction": 0.0013333333333333333,
+      "mean_abs_quantile_error": 0.0038197095839577187
+    },
+    "2.0": {
+      "paired_mse": 2.282423654735094e-05,
+      "mean": 2.000036345443468,
+      "variance": 0.11913564428603442,
+      "positive_fraction": 1.0,
+      "valley_fraction": 0.0018333333333333333,
+      "mean_abs_quantile_error": 0.003819709583957708
+    }
+  }
+}

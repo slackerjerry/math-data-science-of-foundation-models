@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+reports/
+runs/
+_build/
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz

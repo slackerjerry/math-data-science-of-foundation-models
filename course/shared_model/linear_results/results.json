@@ -1,0 +1,536 @@
+{
+  "configuration": {
+    "seed": 930202611,
+    "repetitions": 600,
+    "d": 6,
+    "m": 3,
+    "rank": 2,
+    "view_singular_values": [
+      1.0,
+      0.7
+    ],
+    "view_noise_covariance": "0.1 I_3",
+    "label_noise_variance": 0.25,
+    "risk": "fresh conditional mean",
+    "numpy_version": "2.3.5",
+    "no_intercept": true,
+    "true_basis": [
+      [
+        -0.17452348154099995,
+        -0.09440014333546214
+      ],
+      [
+        0.7469490524963845,
+        -0.3542486748511029
+      ],
+      [
+        0.05067282721045499,
+        -0.6296258512568129
+      ],
+      [
+        0.2814044613205147,
+        0.5226625249754465
+      ],
+      [
+        -0.556638480067904,
+        -0.13143399372350634
+      ],
+      [
+        0.14144279269254345,
+        0.4227490591518745
+      ]
+    ],
+    "view_map": [
+      [
+        -0.6949249925241907,
+        0.43023935329441615
+      ],
+      [
+        -0.6455569348610363,
+        -0.5333246494373471
+      ],
+      [
+        -0.3167577917243357,
+        0.1430346712490831
+      ]
+    ]
+  },
+  "checks": {
+    "max_square_identity_error": 2.220446049250313e-16,
+    "max_noiseless_error": 1.034692973110682e-14,
+    "min_matrix_bound_slack": 0.000445314557480678,
+    "min_projection_bound_slack": 5.39862627940592e-05
+  },
+  "rows": [
+    {
+      "pretraining_pairs": 16,
+      "labels": 10,
+      "representation": "learned",
+      "analytic_risk": 0.171612850669761,
+      "analytic_se": 0.0033903429610084804,
+      "fitted_head_risk": 0.17333524670936407,
+      "fitted_head_se": 0.0059086699686364845,
+      "difference": 0.0017223960396030448,
+      "difference_se": 0.004667088741591639,
+      "empirical_pretext_loss": 0.21596984947907444,
+      "population_pretext_excess": 0.1472881093578347,
+      "missed_task_direction": 0.0779211060764808
+    },
+    {
+      "pretraining_pairs": 16,
+      "labels": 10,
+      "representation": "random",
+      "analytic_risk": 0.9228969847945789,
+      "analytic_se": 0.012452677015212002,
+      "fitted_head_risk": 0.9173815673390311,
+      "fitted_head_se": 0.018258716501613453,
+      "difference": -0.0055154174555478875,
+      "difference_se": 0.013282728791630772
+    },
+    {
+      "pretraining_pairs": 16,
+      "labels": 10,
+      "representation": "oracle",
+      "analytic_risk": 0.07142857142857141,
+      "analytic_se": 5.670310377108279e-19,
+      "fitted_head_risk": 0.06902412928562039,
+      "fitted_head_se": 0.0031925348474050657,
+      "difference": -0.0024044421429510452,
+      "difference_se": 0.0031925348474050657
+    },
+    {
+      "pretraining_pairs": 16,
+      "labels": 10,
+      "representation": "raw",
+      "analytic_risk": 0.5,
+      "analytic_se": 0.0,
+      "fitted_head_risk": 0.5304390061184564,
+      "fitted_head_se": 0.02853710687863494,
+      "difference": 0.030439006118456385,
+      "difference_se": 0.02853710687863494
+    },
+    {
+      "pretraining_pairs": 16,
+      "labels": 100,
+      "representation": "learned",
+      "analytic_risk": 0.08468236599558347,
+      "analytic_se": 0.002691303175233536,
+      "fitted_head_risk": 0.0841027297886951,
+      "fitted_head_se": 0.002693201998779834,
+      "difference": -0.0005796362068883812,
+      "difference_se": 0.0002482746025107513,
+      "empirical_pretext_loss": 0.21596984947907444,
+      "population_pretext_excess": 0.1472881093578347,
+      "missed_task_direction": 0.0779211060764808
+    },
+    {
+      "pretraining_pairs": 16,
+      "labels": 100,
+      "representation": "random",
+      "analytic_risk": 0.6810625549400267,
+      "analytic_se": 0.009885114744034269,
+      "fitted_head_risk": 0.680040685923439,
+      "fitted_head_se": 0.009857653645517559,
+      "difference": -0.001021869016587581,
+      "difference_se": 0.0007099061470905848
+    },
+    {
+      "pretraining_pairs": 16,
+      "labels": 100,
+      "representation": "oracle",
+      "analytic_risk": 0.005154639175257733,
+      "analytic_se": 3.543943985692674e-20,
+      "fitted_head_risk": 0.004752605164483112,
+      "fitted_head_se": 0.00019026817708551333,
+      "difference": -0.00040203401077461954,
+      "difference_se": 0.00019026817708551333
+    },
+    {
+      "pretraining_pairs": 16,
+      "labels": 100,
+      "representation": "raw",
+      "analytic_risk": 0.016129032258064512,
+      "analytic_se": 1.4175775942770697e-19,
+      "fitted_head_risk": 0.015865553483137146,
+      "fitted_head_se": 0.0003697298263671536,
+      "difference": -0.00026347877492737237,
+      "difference_se": 0.0003697298263671536
+    },
+    {
+      "pretraining_pairs": 64,
+      "labels": 10,
+      "representation": "learned",
+      "analytic_risk": 0.08929728795101534,
+      "analytic_se": 0.0005298981164091616,
+      "fitted_head_risk": 0.08739522470175269,
+      "fitted_head_se": 0.0036660486552844533,
+      "difference": -0.0019020632492626488,
+      "difference_se": 0.003664402323840114,
+      "empirical_pretext_loss": 0.27558117976329316,
+      "population_pretext_excess": 0.02472902211489173,
+      "missed_task_direction": 0.013897890628567486
+    },
+    {
+      "pretraining_pairs": 64,
+      "labels": 10,
+      "representation": "random",
+      "analytic_risk": 0.9400723724394724,
+      "analytic_se": 0.012369703990025833,
+      "fitted_head_risk": 0.9783222717296576,
+      "fitted_head_se": 0.024486020246176198,
+      "difference": 0.03824989929018504,
+      "difference_se": 0.020778910441612567
+    },
+    {
+      "pretraining_pairs": 64,
+      "labels": 10,
+      "representation": "oracle",
+      "analytic_risk": 0.07142857142857141,
+      "analytic_se": 5.670310377108279e-19,
+      "fitted_head_risk": 0.0703994047230469,
+      "fitted_head_se": 0.0035049989037795764,
+      "difference": -0.0010291667055245379,
+      "difference_se": 0.0035049989037795764
+    },
+    {
+      "pretraining_pairs": 64,
+      "labels": 10,
+      "representation": "raw",
+      "analytic_risk": 0.5,
+      "analytic_se": 0.0,
+      "fitted_head_risk": 0.5310582879540541,
+      "fitted_head_se": 0.02498842089658464,
+      "difference": 0.03105828795405401,
+      "difference_se": 0.02498842089658464
+    },
+    {
+      "pretraining_pairs": 64,
+      "labels": 100,
+      "representation": "learned",
+      "analytic_risk": 0.019339084249775065,
+      "analytic_se": 0.0004206407728196438,
+      "fitted_head_risk": 0.019147527197715425,
+      "fitted_head_se": 0.0004860669236263974,
+      "difference": -0.00019155705205963885,
+      "difference_se": 0.00022037142275028833,
+      "empirical_pretext_loss": 0.27558117976329316,
+      "population_pretext_excess": 0.02472902211489173,
+      "missed_task_direction": 0.013897890628567486
+    },
+    {
+      "pretraining_pairs": 64,
+      "labels": 100,
+      "representation": "random",
+      "analytic_risk": 0.6946966255447359,
+      "analytic_se": 0.009819249559092672,
+      "fitted_head_risk": 0.6949415044477253,
+      "fitted_head_se": 0.009894719572088557,
+      "difference": 0.0002448789029894245,
+      "difference_se": 0.0008261326981482025
+    },
+    {
+      "pretraining_pairs": 64,
+      "labels": 100,
+      "representation": "oracle",
+      "analytic_risk": 0.005154639175257733,
+      "analytic_se": 3.543943985692674e-20,
+      "fitted_head_risk": 0.005076942534368648,
+      "fitted_head_se": 0.00021138962780691082,
+      "difference": -7.769664088908293e-05,
+      "difference_se": 0.00021138962780691082
+    },
+    {
+      "pretraining_pairs": 64,
+      "labels": 100,
+      "representation": "raw",
+      "analytic_risk": 0.016129032258064512,
+      "analytic_se": 1.4175775942770697e-19,
+      "fitted_head_risk": 0.01608946242679549,
+      "fitted_head_se": 0.0003918282538524161,
+      "difference": -3.95698312690268e-05,
+      "difference_se": 0.000391828253852416
+    },
+    {
+      "pretraining_pairs": 256,
+      "labels": 10,
+      "representation": "learned",
+      "analytic_risk": 0.07573756719410601,
+      "analytic_se": 0.0001250738984425747,
+      "fitted_head_risk": 0.08249729206224292,
+      "fitted_head_se": 0.0041204678174400185,
+      "difference": 0.006759724868136914,
+      "difference_se": 0.004126458987388718,
+      "empirical_pretext_loss": 0.2952456732961984,
+      "population_pretext_excess": 0.005605481524743416,
+      "missed_task_direction": 0.003351441150971337
+    },
+    {
+      "pretraining_pairs": 256,
+      "labels": 10,
+      "representation": "random",
+      "analytic_risk": 0.9344630007661044,
+      "analytic_se": 0.012321461315628307,
+      "fitted_head_risk": 0.9276979383532223,
+      "fitted_head_se": 0.019443571535501955,
+      "difference": -0.006765062412881928,
+      "difference_se": 0.01457703141252244
+    },
+    {
+      "pretraining_pairs": 256,
+      "labels": 10,
+      "representation": "oracle",
+      "analytic_risk": 0.07142857142857141,
+      "analytic_se": 5.670310377108279e-19,
+      "fitted_head_risk": 0.0779616407035996,
+      "fitted_head_se": 0.004038536541943518,
+      "difference": 0.0065330692750281754,
+      "difference_se": 0.004038536541943518
+    },
+    {
+      "pretraining_pairs": 256,
+      "labels": 10,
+      "representation": "raw",
+      "analytic_risk": 0.5,
+      "analytic_se": 0.0,
+      "fitted_head_risk": 0.4513800996211067,
+      "fitted_head_se": 0.020204998131921854,
+      "difference": -0.04861990037889334,
+      "difference_se": 0.020204998131921854
+    },
+    {
+      "pretraining_pairs": 256,
+      "labels": 100,
+      "representation": "learned",
+      "analytic_risk": 0.00857518220563054,
+      "analytic_se": 9.928546577400257e-05,
+      "fitted_head_risk": 0.008861347828375837,
+      "fitted_head_se": 0.00024673116981110944,
+      "difference": 0.0002861656227452987,
+      "difference_se": 0.00022072547649961606,
+      "empirical_pretext_loss": 0.2952456732961984,
+      "population_pretext_excess": 0.005605481524743416,
+      "missed_task_direction": 0.003351441150971337
+    },
+    {
+      "pretraining_pairs": 256,
+      "labels": 100,
+      "representation": "random",
+      "analytic_risk": 0.6902438253504127,
+      "analytic_se": 0.009780953827869893,
+      "fitted_head_risk": 0.691599533284601,
+      "fitted_head_se": 0.009847014373198536,
+      "difference": 0.0013557079341883235,
+      "difference_se": 0.0009143982569277504
+    },
+    {
+      "pretraining_pairs": 256,
+      "labels": 100,
+      "representation": "oracle",
+      "analytic_risk": 0.005154639175257733,
+      "analytic_se": 3.543943985692674e-20,
+      "fitted_head_risk": 0.005486662840191158,
+      "fitted_head_se": 0.00022167194979210903,
+      "difference": 0.00033202366493342703,
+      "difference_se": 0.00022167194979210908
+    },
+    {
+      "pretraining_pairs": 256,
+      "labels": 100,
+      "representation": "raw",
+      "analytic_risk": 0.016129032258064512,
+      "analytic_se": 1.4175775942770697e-19,
+      "fitted_head_risk": 0.016575266776765126,
+      "fitted_head_se": 0.0003846867204065351,
+      "difference": 0.00044623451870061154,
+      "difference_se": 0.0003846867204065351
+    },
+    {
+      "pretraining_pairs": 1024,
+      "labels": 10,
+      "representation": "learned",
+      "analytic_risk": 0.07252053664764391,
+      "analytic_se": 3.383497972214598e-05,
+      "fitted_head_risk": 0.07248324789563731,
+      "fitted_head_se": 0.003631487502443268,
+      "difference": -3.72887520065851e-05,
+      "difference_se": 0.003633523050481335,
+      "empirical_pretext_loss": 0.2986597420616693,
+      "population_pretext_excess": 0.0013792399939198394,
+      "missed_task_direction": 0.0008493062815008112
+    },
+    {
+      "pretraining_pairs": 1024,
+      "labels": 10,
+      "representation": "random",
+      "analytic_risk": 0.9419073337609939,
+      "analytic_se": 0.012160952696416783,
+      "fitted_head_risk": 0.9440118154289932,
+      "fitted_head_se": 0.02200174665286478,
+      "difference": 0.002104481667999494,
+      "difference_se": 0.017635515295243893
+    },
+    {
+      "pretraining_pairs": 1024,
+      "labels": 10,
+      "representation": "oracle",
+      "analytic_risk": 0.07142857142857141,
+      "analytic_se": 5.670310377108279e-19,
+      "fitted_head_risk": 0.07130435777154108,
+      "fitted_head_se": 0.003604057410551593,
+      "difference": -0.00012421365703034351,
+      "difference_se": 0.003604057410551593
+    },
+    {
+      "pretraining_pairs": 1024,
+      "labels": 10,
+      "representation": "raw",
+      "analytic_risk": 0.5,
+      "analytic_se": 0.0,
+      "fitted_head_risk": 0.4910143122855056,
+      "fitted_head_se": 0.031115734661285536,
+      "difference": -0.0089856877144944,
+      "difference_se": 0.031115734661285532
+    },
+    {
+      "pretraining_pairs": 1024,
+      "labels": 100,
+      "representation": "learned",
+      "analytic_risk": 0.006021456926480209,
+      "analytic_se": 2.6858695243352993e-05,
+      "fitted_head_risk": 0.005905315149715233,
+      "fitted_head_se": 0.00021424032404224124,
+      "difference": -0.00011614177676497657,
+      "difference_se": 0.00021325526714619696,
+      "empirical_pretext_loss": 0.2986597420616693,
+      "population_pretext_excess": 0.0013792399939198394,
+      "missed_task_direction": 0.0008493062815008112
+    },
+    {
+      "pretraining_pairs": 1024,
+      "labels": 100,
+      "representation": "random",
+      "analytic_risk": 0.6961532443257373,
+      "analytic_se": 0.00965353976932054,
+      "fitted_head_risk": 0.6963442093260069,
+      "fitted_head_se": 0.009732055604596185,
+      "difference": 0.00019096500026960544,
+      "difference_se": 0.0008705510187945299
+    },
+    {
+      "pretraining_pairs": 1024,
+      "labels": 100,
+      "representation": "oracle",
+      "analytic_risk": 0.005154639175257733,
+      "analytic_se": 3.543943985692674e-20,
+      "fitted_head_risk": 0.005092239055450479,
+      "fitted_head_se": 0.00021455529755247415,
+      "difference": -6.240011980725197e-05,
+      "difference_se": 0.00021455529755247415
+    },
+    {
+      "pretraining_pairs": 1024,
+      "labels": 100,
+      "representation": "raw",
+      "analytic_risk": 0.016129032258064512,
+      "analytic_se": 1.4175775942770697e-19,
+      "fitted_head_risk": 0.016450119426635823,
+      "fitted_head_se": 0.0003924251253048608,
+      "difference": 0.0003210871685713067,
+      "difference_se": 0.0003924251253048608
+    },
+    {
+      "pretraining_pairs": 4096,
+      "labels": 10,
+      "representation": "learned",
+      "analytic_risk": 0.07168250049839979,
+      "analytic_se": 7.696117796463892e-06,
+      "fitted_head_risk": 0.07400684680464312,
+      "fitted_head_se": 0.004053361200874055,
+      "difference": 0.0023243463062433373,
+      "difference_se": 0.004054148631790232,
+      "empirical_pretext_loss": 0.29952537200417967,
+      "population_pretext_excess": 0.0003451670058605094,
+      "missed_task_direction": 0.00019750038764427345
+    },
+    {
+      "pretraining_pairs": 4096,
+      "labels": 10,
+      "representation": "random",
+      "analytic_risk": 0.928634266806253,
+      "analytic_se": 0.012372188552863863,
+      "fitted_head_risk": 0.9326651595370893,
+      "fitted_head_se": 0.0186328544445627,
+      "difference": 0.004030892730836244,
+      "difference_se": 0.013170007004604621
+    },
+    {
+      "pretraining_pairs": 4096,
+      "labels": 10,
+      "representation": "oracle",
+      "analytic_risk": 0.07142857142857141,
+      "analytic_se": 5.670310377108279e-19,
+      "fitted_head_risk": 0.07418501888635895,
+      "fitted_head_se": 0.004102877958556628,
+      "difference": 0.002756447457787529,
+      "difference_se": 0.004102877958556628
+    },
+    {
+      "pretraining_pairs": 4096,
+      "labels": 10,
+      "representation": "raw",
+      "analytic_risk": 0.5,
+      "analytic_se": 0.0,
+      "fitted_head_risk": 0.5145791393985708,
+      "fitted_head_se": 0.035095529095715755,
+      "difference": 0.014579139398570865,
+      "difference_se": 0.035095529095715755
+    },
+    {
+      "pretraining_pairs": 4096,
+      "labels": 100,
+      "representation": "learned",
+      "analytic_risk": 0.005356211735843125,
+      "analytic_se": 6.109289384821833e-06,
+      "fitted_head_risk": 0.005512275567527225,
+      "fitted_head_se": 0.0002183448221788557,
+      "difference": 0.00015606383168410075,
+      "difference_se": 0.00021769381607980652,
+      "empirical_pretext_loss": 0.29952537200417967,
+      "population_pretext_excess": 0.0003451670058605094,
+      "missed_task_direction": 0.00019750038764427345
+    },
+    {
+      "pretraining_pairs": 4096,
+      "labels": 100,
+      "representation": "random",
+      "analytic_risk": 0.6856168922070255,
+      "analytic_se": 0.00982122184093317,
+      "fitted_head_risk": 0.6855069650845733,
+      "fitted_head_se": 0.009826654366157867,
+      "difference": -0.00010992712245228419,
+      "difference_se": 0.0007614746581360921
+    },
+    {
+      "pretraining_pairs": 4096,
+      "labels": 100,
+      "representation": "oracle",
+      "analytic_risk": 0.005154639175257733,
+      "analytic_se": 3.543943985692674e-20,
+      "fitted_head_risk": 0.005289445567860585,
+      "fitted_head_se": 0.00021692926009045477,
+      "difference": 0.00013480639260285342,
+      "difference_se": 0.00021692926009045477
+    },
+    {
+      "pretraining_pairs": 4096,
+      "labels": 100,
+      "representation": "raw",
+      "analytic_risk": 0.016129032258064512,
+      "analytic_se": 1.4175775942770697e-19,
+      "fitted_head_risk": 0.016343128239070515,
+      "fitted_head_se": 0.0004019935690762614,
+      "difference": 0.0002140959810060004,
+      "difference_se": 0.0004019935690762614
+    }
+  ]
+}

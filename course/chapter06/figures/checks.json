@@ -1,0 +1,325 @@
+{
+  "seed": 20260930,
+  "monte_carlo_repeats": 40000,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "ridge": {
+    "finite_noise_cases": [
+      {
+        "rho": 0.0,
+        "enumerated_risk": 0.7499999999999999,
+        "formula": 0.75
+      },
+      {
+        "rho": 0.1,
+        "enumerated_risk": 0.6276033057851238,
+        "formula": 0.6276033057851239
+      },
+      {
+        "rho": 1.0,
+        "enumerated_risk": 0.42249999999999993,
+        "formula": 0.4225
+      }
+    ],
+    "chapter_table": [
+      {
+        "rho": 0.0,
+        "target": "matched",
+        "bias2": 0.0,
+        "variance": 0.1,
+        "risk": 0.1
+      },
+      {
+        "rho": 0.0,
+        "target": "shifted",
+        "bias2": 0.0,
+        "variance": 5.05,
+        "risk": 5.05
+      },
+      {
+        "rho": 0.1,
+        "target": "matched",
+        "bias2": 0.01652892561983471,
+        "variance": 0.04173553719008264,
+        "risk": 0.05826446280991735
+      },
+      {
+        "rho": 0.1,
+        "target": "shifted",
+        "bias2": 0.834710743801653,
+        "variance": 0.08264462809917356,
+        "risk": 0.9173553719008265
+      }
+    ]
+  },
+  "transfer": {
+    "inverse_moments": [
+      {
+        "k": 3,
+        "integral": 1.0000000000006255
+      },
+      {
+        "k": 4,
+        "integral": 0.5
+      },
+      {
+        "k": 5,
+        "integral": 0.33333333333333015
+      },
+      {
+        "k": 10,
+        "integral": 0.125
+      },
+      {
+        "k": 20,
+        "integral": 0.05555555555555555
+      }
+    ],
+    "independent_fits": [
+      {
+        "sin2": 0.02,
+        "one_feature": {
+          "observed": 0.07679541576228376,
+          "theory": 0.07666666666666667,
+          "standard_error": 0.00043982660948010477,
+          "tolerance": "7 Monte Carlo SE; not a confidence claim about real data"
+        },
+        "two_features": {
+          "observed": 0.11726291503408268,
+          "theory": 0.11764705882352941,
+          "standard_error": 0.0006602782113171574,
+          "tolerance": "7 Monte Carlo SE; not a confidence claim about real data"
+        }
+      },
+      {
+        "sin2": 0.1,
+        "one_feature": {
+          "observed": 0.16106809742643313,
+          "theory": 0.16111111111111112,
+          "standard_error": 0.0004691417821069636,
+          "tolerance": "7 Monte Carlo SE; not a confidence claim about real data"
+        },
+        "two_features": {
+          "observed": 0.11726291503408268,
+          "theory": 0.11764705882352941,
+          "standard_error": 0.0006602782113171574,
+          "tolerance": "7 Monte Carlo SE; not a confidence claim about real data"
+        }
+      }
+    ],
+    "threshold": 0.058823529411764705
+  },
+  "validation": {
+    "epsilon_K20_m1000_delta005": 0.05781267909234066,
+    "zero_error_probability_K1000_m10": 0.623576201943276
+  },
+  "teacher": [
+    {
+      "n": 1,
+      "m": 4,
+      "p": 0.3,
+      "enumerated_mse": 0.20999999999999996,
+      "formula": 0.21
+    },
+    {
+      "n": 4,
+      "m": 7,
+      "p": 0.3,
+      "enumerated_mse": 0.075,
+      "formula": 0.075
+    },
+    {
+      "n": 20,
+      "m": 40,
+      "p": 0.5,
+      "enumerated_mse": 0.018437499999999975,
+      "formula": 0.018437500000000002
+    },
+    {
+      "n": 5,
+      "m": 8,
+      "p": 0.0,
+      "enumerated_mse": 0.0,
+      "formula": 0.0
+    },
+    {
+      "n": 5,
+      "m": 8,
+      "p": 1.0,
+      "enumerated_mse": 0.0,
+      "formula": 0.0
+    }
+  ],
+  "recursion": {
+    "stacked_fit_rounds": 20,
+    "maximum_residual": 4.440892098500626e-16,
+    "enumerated_noise_histories": 256,
+    "accumulated_risk": 1.5274220521541948,
+    "replacement_risk": 8.0
+  },
+  "verification": {
+    "interval_grid_checks": [
+      {
+        "a": -1.0,
+        "b": 1.0,
+        "sigma": 1.0,
+        "grid_points": 17,
+        "maximum_derivative_error": 3.240574475427138e-12,
+        "maximum_boundary_error": 2.7755575615628914e-16
+      },
+      {
+        "a": -1.0,
+        "b": 3.0,
+        "sigma": 1.0,
+        "grid_points": 17,
+        "maximum_derivative_error": 3.289241101711582e-11,
+        "maximum_boundary_error": 2.220446049250313e-16
+      },
+      {
+        "a": -2.0,
+        "b": 2.0,
+        "sigma": 0.7,
+        "grid_points": 17,
+        "maximum_derivative_error": 3.266331649598442e-11,
+        "maximum_boundary_error": 2.7755575615628914e-16
+      }
+    ],
+    "biased_one_step_mean": 0.28278611072715404,
+    "soft_quadrature": {
+      "acceptance": 0.42967978555597486,
+      "mean": 0.8147058823529416,
+      "variance": 0.2647058823529411
+    },
+    "soft_actual_rejection": {
+      "proposals": 200000,
+      "accepted": 86004,
+      "mean_check": {
+        "observed": 0.8137253670003972,
+        "theory": 0.8147058823529416,
+        "standard_error": 0.0017533452909308492,
+        "tolerance": "7 Monte Carlo SE; not a confidence claim about real data"
+      },
+      "variance_check": {
+        "observed": 0.2643930790632113,
+        "theory": 0.2647058823529411,
+        "standard_error": 0.0012735487271375435,
+        "tolerance": "7 Monte Carlo SE; not a confidence claim about real data"
+      }
+    }
+  },
+  "composition": {
+    "noise_assignments": 128,
+    "cases": [
+      {
+        "h": [
+          1.0,
+          0.0
+        ],
+        "s": [
+          1.0,
+          -1.0,
+          0.0
+        ],
+        "enumerated_risk": 5.249999999999998,
+        "formula": 5.25
+      },
+      {
+        "h": [
+          -1.0,
+          3.0
+        ],
+        "s": [
+          1.0,
+          -1.0,
+          0.0
+        ],
+        "enumerated_risk": 1.9999999999999996,
+        "formula": 2.0
+      }
+    ],
+    "sign_averaged_risk": 4.499999999999999,
+    "rare_residual_max": 3.552713678800501e-15
+  },
+  "lookup_control": {
+    "M": 10000,
+    "r": 20,
+    "K": 16,
+    "population_randomized_risk": 0.935625,
+    "membership_TPR": 1.0,
+    "membership_FPR": 0.0,
+    "supplied_prefix_member_greedy": 1.0,
+    "supplied_prefix_heldout_greedy_observed": 0.0,
+    "heldout_greedy_expectation_over_worlds": 0.0625,
+    "member_prefix_ids": [
+      1897,
+      992,
+      494,
+      7742,
+      9887,
+      5815,
+      2108,
+      5644,
+      9148,
+      5291,
+      606,
+      1261,
+      2472,
+      7951,
+      1574,
+      8056,
+      3652,
+      876,
+      5246,
+      188
+    ],
+    "heldout_prefix_ids": [
+      1225,
+      4129,
+      2012,
+      923,
+      2876,
+      7903,
+      1978,
+      8195,
+      9340,
+      761,
+      6063,
+      5652,
+      8796,
+      3603,
+      5408,
+      4060,
+      5063,
+      1744,
+      9611,
+      5489
+    ]
+  },
+  "figure": {
+    "left": "exact finite sums",
+    "right": "deterministic infinite-accepted-batch iteration by quadrature",
+    "right_config": {
+      "sigma": 1,
+      "a": -1,
+      "b": 1,
+      "theta0": 0.9,
+      "true_mu": 0.4
+    },
+    "trajectory": [
+      0.9,
+      0.25173269048519487,
+      0.07304819215138114,
+      0.021260332912297803,
+      0.006189272675934298,
+      0.0018018490474112335,
+      0.0005245633871769594,
+      0.0001527135636468424,
+      4.4458750636510605e-05
+    ]
+  },
+  "status": "all checks passed"
+}

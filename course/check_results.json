@@ -1,0 +1,86 @@
+{
+  "mixture_7/10": {
+    "q_a": "3/5",
+    "q_b": "2/5",
+    "train": "6/25",
+    "target": "6/25"
+  },
+  "mixture_1": {
+    "q_a": "3/4",
+    "q_b": "1/4",
+    "train": "3/16",
+    "target": "21/80"
+  },
+  "mixture_1/4": {
+    "q_a": "3/8",
+    "q_b": "5/8",
+    "train": "15/64",
+    "target": "93/320"
+  },
+  "marked_target": {
+    "squared": "3/16",
+    "classification": "1/4"
+  },
+  "classification_target": {
+    "original": "3/5",
+    "corrected": "2/5"
+  },
+  "token_merge": {
+    "pair_counts": "{('a', 'a'): 5, ('a', 'b'): 1}",
+    "tokens": "[['AA', 'AA'], ['AA', 'a', 'b']]"
+  },
+  "token_ranking": {
+    "token": "33/50",
+    "document": "3/5"
+  },
+  "filter": {
+    "retention": "3/4",
+    "p_a": "7/12",
+    "m_a": "6/7",
+    "m_b": "2/5"
+  },
+  "nonconvex_shift": {
+    "risks": "[Fraction(0, 1), Fraction(81, 100), Fraction(1, 1)]"
+  },
+  "unequal_copies": {
+    "row_variance": "49/400",
+    "group_variance": "21/400",
+    "effective_size": "12/7"
+  },
+  "correlated_groups": {
+    "variance": "2/3",
+    "n": "2",
+    "r": "3",
+    "sigma_squared": "2",
+    "rho": "1/2"
+  },
+  "collection_to_pairs": {
+    "record_fraction": "7/8",
+    "pair_fraction": "7/10"
+  },
+  "proxy_bound_grid": {
+    "largest_objective_difference": "1/100",
+    "bound": "1/5",
+    "scope": "finite check, not proof of the uniform theorem"
+  },
+  "sequence_mixture": {
+    "joint": "{'00': Fraction(37, 100), '01': Fraction(13, 100), '10': Fraction(13, 100), '11': Fraction(37, 100)}",
+    "conditional_next_one": "{'0': Fraction(13, 50), '1': Fraction(37, 50)}"
+  },
+  "joint_vs_conditional": {
+    "likelihood_pairs": "[(Fraction(2, 25), Fraction(4, 5)), (Fraction(13, 100), Fraction(13, 50)), (Fraction(9, 50), Fraction(1, 5))]",
+    "conditional_midpoint_nonconvex": "True"
+  },
+  "objective_choice_1/2": {
+    "source_risks": "[Fraction(1, 4), Fraction(1, 4)]",
+    "worst": "1/4"
+  },
+  "objective_choice_7/10": {
+    "source_risks": "[Fraction(21, 100), Fraction(31, 100)]",
+    "worst": "31/100"
+  },
+  "mismatch_excess": {
+    "excess": "81/1600"
+  },
+  "scope": "Exact finite enumeration and arithmetic for the source-mixture, weighting, and independent-observation examples. General proofs are in the solutions."
+}

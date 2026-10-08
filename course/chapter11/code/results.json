@@ -1,0 +1,259 @@
+{
+  "stopping": [
+    {
+      "prior": "1/2",
+      "horizon": 0,
+      "error": 0.5,
+      "calls": 0.0,
+      "total": 0.5,
+      "exact": [
+        "1/2",
+        "0",
+        "1/2"
+      ],
+      "action": "stop"
+    },
+    {
+      "prior": "1/2",
+      "horizon": 1,
+      "error": 0.2,
+      "calls": 1.0,
+      "total": 0.23,
+      "exact": [
+        "1/5",
+        "1",
+        "23/100"
+      ],
+      "action": "call"
+    },
+    {
+      "prior": "1/2",
+      "horizon": 2,
+      "error": 0.2,
+      "calls": 1.0,
+      "total": 0.23,
+      "exact": [
+        "1/5",
+        "1",
+        "23/100"
+      ],
+      "action": "call"
+    },
+    {
+      "prior": "1/2",
+      "horizon": 3,
+      "error": 0.104,
+      "calls": 2.32,
+      "total": 0.1736,
+      "exact": [
+        "13/125",
+        "58/25",
+        "217/1250"
+      ],
+      "action": "call"
+    },
+    {
+      "prior": "1/2",
+      "horizon": 5,
+      "error": 0.07328,
+      "calls": 2.7424,
+      "total": 0.155552,
+      "exact": [
+        "229/3125",
+        "1714/625",
+        "4861/31250"
+      ],
+      "action": "call"
+    },
+    {
+      "prior": "4/5",
+      "horizon": 0,
+      "error": 0.2,
+      "calls": 0.0,
+      "total": 0.2,
+      "exact": [
+        "1/5",
+        "0",
+        "1/5"
+      ],
+      "action": "stop"
+    },
+    {
+      "prior": "4/5",
+      "horizon": 1,
+      "error": 0.2,
+      "calls": 0.0,
+      "total": 0.2,
+      "exact": [
+        "1/5",
+        "0",
+        "1/5"
+      ],
+      "action": "stop"
+    },
+    {
+      "prior": "4/5",
+      "horizon": 2,
+      "error": 0.104,
+      "calls": 1.32,
+      "total": 0.1436,
+      "exact": [
+        "13/125",
+        "33/25",
+        "359/2500"
+      ],
+      "action": "call"
+    },
+    {
+      "prior": "4/5",
+      "horizon": 3,
+      "error": 0.104,
+      "calls": 1.32,
+      "total": 0.1436,
+      "exact": [
+        "13/125",
+        "33/25",
+        "359/2500"
+      ],
+      "action": "call"
+    },
+    {
+      "prior": "4/5",
+      "horizon": 5,
+      "error": 0.07328,
+      "calls": 1.7424,
+      "total": 0.125552,
+      "exact": [
+        "229/3125",
+        "1089/625",
+        "7847/62500"
+      ],
+      "action": "call"
+    },
+    {
+      "prior": "19/20",
+      "horizon": 0,
+      "error": 0.05,
+      "calls": 0.0,
+      "total": 0.05,
+      "exact": [
+        "1/20",
+        "0",
+        "1/20"
+      ],
+      "action": "stop"
+    },
+    {
+      "prior": "19/20",
+      "horizon": 1,
+      "error": 0.05,
+      "calls": 0.0,
+      "total": 0.05,
+      "exact": [
+        "1/20",
+        "0",
+        "1/20"
+      ],
+      "action": "stop"
+    },
+    {
+      "prior": "19/20",
+      "horizon": 2,
+      "error": 0.05,
+      "calls": 0.0,
+      "total": 0.05,
+      "exact": [
+        "1/20",
+        "0",
+        "1/20"
+      ],
+      "action": "stop"
+    },
+    {
+      "prior": "19/20",
+      "horizon": 3,
+      "error": 0.05,
+      "calls": 0.0,
+      "total": 0.05,
+      "exact": [
+        "1/20",
+        "0",
+        "1/20"
+      ],
+      "action": "stop"
+    },
+    {
+      "prior": "19/20",
+      "horizon": 5,
+      "error": 0.05,
+      "calls": 0.0,
+      "total": 0.05,
+      "exact": [
+        "1/20",
+        "0",
+        "1/20"
+      ],
+      "action": "stop"
+    }
+  ],
+  "simulations": [
+    {
+      "n": 100000,
+      "seed": 11300,
+      "cached": false,
+      "error": 0.07293,
+      "calls": 2.74654,
+      "total": 0.1553262,
+      "total_se": 0.0008410892879162726
+    },
+    {
+      "n": 100000,
+      "seed": 11300,
+      "cached": true,
+      "error": 0.19936,
+      "calls": 2.0,
+      "total": 0.25936,
+      "total_se": 0.0012633969549269372
+    }
+  ],
+  "verifier": [
+    {
+      "k": 0,
+      "correct": 0.0,
+      "wrong": 0.0,
+      "abstain": 1.0,
+      "attempts": 0.0,
+      "cost": 0.4,
+      "max_score_correct": 0.0
+    },
+    {
+      "k": 1,
+      "correct": 0.18,
+      "wrong": 0.08,
+      "abstain": 0.74,
+      "attempts": 1.0,
+      "cost": 0.406,
+      "max_score_correct": 0.5
+    },
+    {
+      "k": 4,
+      "correct": 0.48470832,
+      "wrong": 0.21542592,
+      "abstain": 0.29986576,
+      "attempts": 2.692824,
+      "cost": 0.416156944,
+      "max_score_correct": 0.6305
+    },
+    {
+      "k": 20,
+      "correct": 0.690629145131544,
+      "wrong": 0.3069462867251307,
+      "abstain": 0.002424568143325289,
+      "attempts": 3.8368285840641336,
+      "cost": 0.4230209715043848,
+      "max_score_correct": 0.121576643595453
+    }
+  ],
+  "coverage_heterogeneous": 0.59,
+  "pass_estimator": 0.7
+}

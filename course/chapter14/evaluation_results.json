@@ -1,0 +1,37 @@
+{
+  "seed": 14001,
+  "cluster": {
+    "replications": 50000,
+    "n": 100,
+    "L": 10,
+    "observed_variance": 0.0016910863435504711,
+    "exact_variance": 0.00169,
+    "iid_answer_variance": 0.00025
+  },
+  "selection": {
+    "menu": 20,
+    "validation_mean": 0.592918,
+    "fresh_mean": 0.4999158,
+    "fresh_se": 0.00022245432772989273
+  },
+  "gaussian_tuning": [
+    {
+      "rho": 0.0,
+      "mse_ratio": 1.0538965526846873,
+      "mc_se": 0.006687588910406443,
+      "exact_ratio": 1.0526315789473684
+    },
+    {
+      "rho": 0.1,
+      "mse_ratio": 1.0471646111551467,
+      "mc_se": 0.006739695621769457,
+      "exact_ratio": 1.043157894736842
+    },
+    {
+      "rho": 0.5,
+      "mse_ratio": 0.8119118679960835,
+      "mc_se": 0.005175877120462341,
+      "exact_ratio": 0.8157894736842105
+    }
+  ]
+}
