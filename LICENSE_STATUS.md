@@ -1,7 +1,9 @@
-# License status
+# License and scope
 
-The author has not selected a public reuse license for this course-code release. No MIT, Apache, Creative Commons or other grant is added by packaging it.
+The original code, repository documentation, generated figures, synthetic data, numerical results and teaching-model checkpoints included in this repository are licensed under the [MIT License](LICENSE), to the extent of the author's rights in those materials.
 
-Before public release, the author should choose the intended license for the code and decide separately how the lecture notes, figures, syllabus and solutions may be reused. Add the chosen license text as `LICENSE` and update the citation metadata if a public repository or archival identifier is created.
+External dependencies and embedded third-party fonts retain their own licenses. See [THIRD_PARTY.md](THIRD_PARTY.md) for attribution and notices.
 
-External dependencies retain their own licenses. They are installed separately and are not vendored here.
+This license does not apply to the lecture notes, syllabus, separate solution manual or editable LaTeX manuscript sources distributed outside this repository. Their availability through the course website does not extend this repository's MIT license to them.
+
+Academic citation is appreciated; see [CITATION.cff](CITATION.cff). This request adds no condition to the MIT License.

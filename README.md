@@ -59,6 +59,6 @@ The [course website](https://jerryhu.page/courses/mathematical-data-science/) pr
 
 Repository: [math-data-science-of-foundation-models](https://github.com/slackerjerry/math-data-science-of-foundation-models).
 
-No public reuse license has been selected. See [LICENSE_STATUS.md](LICENSE_STATUS.md) for the current licensing status. [THIRD_PARTY.md](THIRD_PARTY.md) identifies the external software dependencies. Contribution guidance is in [CONTRIBUTING.md](CONTRIBUTING.md).
+The original code, repository documentation, generated figures, synthetic data, numerical results and teaching-model checkpoints in this repository are licensed under the [MIT License](LICENSE). See [LICENSE_STATUS.md](LICENSE_STATUS.md) for the scope and exclusions, including separately distributed course materials. External dependencies and embedded third-party fonts retain their own licenses; see [THIRD_PARTY.md](THIRD_PARTY.md). Contribution guidance is in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 The course's ungraded problem-pool and oral-examination policies are defined by the syllabus. This repository adds no submission requirements.
